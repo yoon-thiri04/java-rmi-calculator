@@ -35,10 +35,4 @@ It includes a remote calculator interface, server implementation, and client to 
 
 ---
 
-Explore and build on this to deepen your understanding of Java RMI!
-
-```
-
----
-
 
