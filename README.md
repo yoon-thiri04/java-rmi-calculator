@@ -7,13 +7,14 @@ It includes a remote calculator interface, server implementation, and client to 
 
 - Remote addition, subtraction, multiplication, and division
 - Basic RMI setup with registry, server, and client
+- Java Swing-based GUI client for interactive use
 
 ## How to Run
 
 1. Compile all classes:
    ```bash
    javac *.java
-   ```
+````
 
 2. Start the RMI registry:
 
@@ -27,12 +28,20 @@ It includes a remote calculator interface, server implementation, and client to 
    java Server
    ```
 
-4. Run the Client:
+4. Run the Console Client (optional):
 
    ```bash
    java Client
    ```
 
+5. Run the Swing GUI Client:
+
+   ```bash
+   java CalculatorClientGUI
+   ```
+
 ---
+
+This project demonstrates both a command-line and graphical interface for interacting with an RMI-based calculator backend.
 
 
