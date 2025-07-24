@@ -12,7 +12,7 @@ It includes a remote calculator interface, server implementation, and client to 
 
 1. Compile all classes:
    ```bash
-   javac rmi2/*.java
+   javac *.java
    ```
 
 2. Start the RMI registry:
@@ -24,13 +24,13 @@ It includes a remote calculator interface, server implementation, and client to 
 3. Run the Server:
 
    ```bash
-   java rmi2.Server
+   java Server
    ```
 
 4. Run the Client:
 
    ```bash
-   java rmi2.Client
+   java Client
    ```
 
 ---
