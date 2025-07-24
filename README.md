@@ -1,6 +1,6 @@
 ## Java RMI Calculator
 
-A very simple Calculator application demonstrating Java Remote Method Invocation (RMI).  
+A very simple Calculator application demonstrating Java Remote Method Invocation (RMI) with Java Swing-based GUI.  
 It includes a remote calculator interface, server implementation, and client to perform operations remotely.
 
 ## Features
@@ -14,7 +14,7 @@ It includes a remote calculator interface, server implementation, and client to 
 1. Compile all classes:
    ```bash
    javac *.java
-````
+   ```
 
 2. Start the RMI registry:
 
